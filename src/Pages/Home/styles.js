@@ -17,6 +17,7 @@ export const Header = styled.div`
   height: 8rem;
 
   img {
+    margin: 5% 0%;
     height: 5.5rem;
   }
 
