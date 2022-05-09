@@ -40,19 +40,20 @@ export const Contant = styled.div`
   flex-direction: column;
 
   h2 {
-    margin: -2% 5% 4%;
+    margin: 2% 5% 4%;
     text-align: center;
   }
 
   @media(max-width: 520px) {
     h2 {
       font-size: 18px;
+      /* margin: -2% 5% 4%; */
     }
   }
 `;
 
 export const Button = styled.button`
-  margin: 10px;
+  margin: 10px 10px 2%;
   padding: 10px;
 
   height: 60px;
@@ -91,6 +92,12 @@ export const QRCode = styled.a`
   &:hover {
     cursor: pointer;
     opacity: .8;    
+  }
+
+  @media(max-width: 520px) {
+    img {
+      height: 9rem
+    }
   }
 `;
 

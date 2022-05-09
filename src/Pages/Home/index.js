@@ -29,7 +29,8 @@ export default function Home() {
       </Header>
 
       <Contant>
-        <h2>Clique botão ou no QRCode e tire suas dúvidas com a gente!</h2>
+        <h2>Clique no botão ou escaneie o QRCode e tire suas dúvidas com a gente!</h2>
+        
         <QRCode href="https://api.whatsapp.com/send?phone=5511966659526"target="_blank" rel="noreferrer">
           <img src={qrCodeImg} alt="imagem-qrcode" />
         </QRCode>
