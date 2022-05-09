@@ -12,6 +12,7 @@ import {
 } from './styles';
 import logoImg from '../../assets/icon/logo.svg';
 import startCodeImg from '../../assets/icon/StartCode.svg';
+import qrCodeImg from '../../assets/icon/qrcode.svg';
 import { SiTelegram } from 'react-icons/si';
 import { IoLogoWhatsapp } from 'react-icons/io';
 import { MdEmail } from 'react-icons/md';
@@ -22,22 +23,22 @@ export default function Home() {
   return (
     <Container>
       <Header>
-        <a href="https://api.whatsapp.com/send?phone=5511966659526" target="_blank" rel="noreferrer">
+        <a href="/" rel="noreferrer">
           <img src={logoImg} alt="imagem de logo" />
         </a>
       </Header>
 
       <Contant>
         <h2>Clique botão ou no QRCode e tire suas dúvidas com a gente!</h2>
+        <QRCode href="https://api.whatsapp.com/send?phone=5511966659526"target="_blank" rel="noreferrer">
+          <img src={qrCodeImg} alt="imagem-qrcode" />
+        </QRCode>
+
         <Button>
           <a href="https://api.whatsapp.com/send?phone=5511966659526"target="_blank" rel="noreferrer">
             Clique aqui  
           </a>
         </Button>
-
-        {/* <QRCode>
-
-        </QRCode> */}
       </Contant>
 
 

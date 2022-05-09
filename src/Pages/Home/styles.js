@@ -23,6 +23,14 @@ export const Header = styled.div`
   img:hover {
     opacity: 0.8
   }
+
+  @media(max-width: 520px) {
+    height: 6rem;
+    
+    img {
+      height: 4rem;
+    }
+  }
 `;
 
 export const Contant = styled.div`
@@ -35,7 +43,12 @@ export const Contant = styled.div`
     margin: -2% 5% 4%;
     text-align: center;
   }
-  
+
+  @media(max-width: 520px) {
+    h2 {
+      font-size: 18px;
+    }
+  }
 `;
 
 export const Button = styled.button`
@@ -62,6 +75,22 @@ export const Button = styled.button`
 
   &:hover{
     opacity: .8
+  }
+`;
+
+export const QRCode = styled.a`
+  text-decoration: none;
+  margin-bottom: 2%;
+
+  img{
+    height: 14rem;
+    transition: all 0.2s;
+
+  }
+
+  &:hover {
+    cursor: pointer;
+    opacity: .8;    
   }
 `;
 

@@ -8,17 +8,12 @@ export default createGlobalStyle`
     box-sizing: border-box
   }
 
-  /* @media (max-width: 1080px) {
+
+  @media (max-width: 320px) {
     html {
-        font-size: 93.75%; // 15px.
+      font-size: 60.5%;
     }
   }
-
-  @media (max-width: 720px) {
-    html {
-        font-size: 87.5%; // 14px.
-    }
-  } */
 
   body {
     background: #F0F2F5;
