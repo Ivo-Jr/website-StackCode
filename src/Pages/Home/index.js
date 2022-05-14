@@ -11,7 +11,7 @@ import {
   QRCode 
 } from './styles';
 import logoImg from '../../assets/icon/logo.svg';
-import startCodeImg from '../../assets/icon/StartCode.svg';
+import startCodeImg from '../../assets/icon/StackCode.svg';
 import qrCodeImg from '../../assets/icon/qrcode.svg';
 import { SiTelegram } from 'react-icons/si';
 import { IoLogoWhatsapp } from 'react-icons/io';
